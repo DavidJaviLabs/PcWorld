@@ -32,8 +32,7 @@ Este proyecto es una simulación de una tienda online de productos informáticos
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repo.git
-   cd describanoa-pcworld
+   git clone https://github.com/DavidJaviLabs/PcWorld
    ```
 
 2. Compila con Apache Ant:
@@ -46,7 +45,7 @@ Este proyecto es una simulación de una tienda online de productos informáticos
    java -cp dist/DescribanoaPcWorld.jar src.ClaseMainPcWorld
    ```
 
-> Asegúrate de tener las imágenes en la carpeta `ImagenesDecoracion` correctamente accesibles, ya que muchas interfaces gráficas dependen de ellas.
+> Asegúrate de tener las imágenes en la carpeta `ImagenesDecoracion`, ya que muchas interfaces gráficas dependen de ellas. Además, deberás tener la base de datos configurada (`GuiasNecesarias`) y una cuenta de correo con una contraseña de aplicación habilitada para poder enviar los correos de verificación.
 
 ### Interfaz de la pagina principal
 ![Pagina principal](ImagenesReadme/Imagen1.jpg)
